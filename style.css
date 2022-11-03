@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "nordica";
+    src: url("/fonts/nordica/NordicaHairline.otf")
+}
+html{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* p::before{
+    font-family:"";
+    content: f007;
+
+} */
+
+
+/* @media(min-width:600px){
+    
+} */
+
+
+
+
+* {
+box-sizing: border-box;
+margin: 0;
+}
+
+body{
+    background-color: silver;
+    min-width: 320px;
+    /* text-align: center; */
+}
+
+a{
+    color: black;
+}
+
+
+p{
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "nordica";
+}
+
+img {
+    width: 100%;
+}
+
+
+header {
+    width: 100%;
+    min-height: 500px;
+    background-image:url(./images/home-header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.top-header{
+    background-color: rgb(86, 86, 86);
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    padding: 1rem 1rem;
+    list-style: none;
+    
+}
+.top-header li {
+    background-color: aliceblue;
+    padding: 1rem;
+    border: 2px solid;
+
+}
+.top-header i {
+    background-color: aqua;
+    padding: 1rem;
+    border: 2px solid;
+    margin-right: auto;
+
+}
+
+
+
+.low-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center ;
+    padding: 40px;
+    
+
+}
+.low-header h1{
+    font-size: 2.5rem;
+    margin-right: 150px;
+
+
+}
+.low-header button {
+    margin-top: 5rem;
+    background-color: none;
+    background: none;
+    border: 2px solid;
+    border-color: red;
+    transition: 0.5s;
+    padding: 1rem 3rem;
+    margin-right: 500px;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.low-header button:hover {
+    background-color: red;
+    font-size: 1.6rem;
+}
+
+
+/* main{
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aqua;
+} */
+
+.main-item {
+    
+}
+
+
+.section{
+    width: 100%;
+    padding: 5rem 2rem;
+}
+
+
+.section--container {
+    width: 100%;
+    max-width: 800px;
+    /* NOTE: Center content because we use a max-width */
+    margin: auto;
+  }
+
+
+.features-section {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.content-colum {
+    max-width: 400px;
+    width: 50%;
+    flex: 1 1 400px;
+}
+
+.content-colum li {
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.content-colum h2 {
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-colum{
+    max-width: 500px;
+    width: 50%;
+    flex: 1 1 500px;
+}
+
+.media-colum img {
+    border-radius: 15px;
+}
+
+
+
+.review-section{
+    background-color:
+}
+
+.review-section_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: lightcyan;
+    
+}
+
+.review-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    background-color: lightcoral;
+}
+
+.review-card {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    background-color: lightblue;
+}
+
+.review-card figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.review-card img{
+    border-radius: 50%;
+    max-width: 50px;
+}
+
+
+
+
+
+
+.product{
+    background-color: black;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:baseline;
+    padding: 1rem;
+    /* width: fit-content; */
+    margin: 0;
+}
+
+.product-card{
+    color: rgb(220, 219, 219);
+    background-color: none;
+    background-image: url(./images/product-specific.jpg);
+    background-size: 100%;
+    display: flex;
+    /* flex: 1 1 1; */
+    /* align-items: center; */
+    flex-basis: 0%;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 8%;
+    padding: 1rem;
+    margin: 0.4rem;
+}
+
+
