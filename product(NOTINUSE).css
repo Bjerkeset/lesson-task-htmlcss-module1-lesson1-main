@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: "nordica";
+    src: url("/fonts/nordica/NordicaHairline.otf")
+}
+html{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.section{
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+.view-product-h2{
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "myH2 myH2"
+    "myGrid-1 myGrid-1"
+    "myGrid-2 myGrid-2"
+    "myGrid-3 myGrid-3"
+    "myGrid-4 myGrid-4"
+    ;
+}
+.view-product-h2{grid-area: myH2;}
+.grid-1{grid-area: myGrid-1;}
+.grid-2{grid-area: myGrid-2;}
+.grid-3{grid-area: myGrid-3;}
+.grid-4{grid-area: myGrid-4;}
+
+.products{
+    border: 2px solid;
+    gap: 1rem;
+    margin-top: 70px;
+    background-color: lightgrey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 0;
+    /* width: fit-content; */
+    
+}
+
+.product-card{
+    color: rgb(220, 219, 219);
+    background-color: lightcoral;
+    background-image: url(./images/product-specific.jpg);
+    background-repeat: no-repeat;
+    background-size: 175%;
+    display: flex;
+    /* flex-basis: 0%; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8%;
+    margin: 0.5rem;
+
+}
+
+.product-card h3 {
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 4;
+}
+
+.product-card button {
+    background-color: none;
+    border-radius: 25px;
+    transition: 0.5s;
+    padding: 0.5rem 2rem;
+    border: 2px solid;
+    border-color:rgb(46, 99, 121);;
+    margin: 0rem 2rem 2rem 2rem;
+}
+
+.product-card button:hover {
+    background-color: rgb(46, 99, 121);
+}
+
+.price {
+    padding-top: 2.5rem;
+    padding-bottom: 0.3rem;
+}

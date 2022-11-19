@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../navbar/navbar-tutorial"
+		},
+		{
+			"path": "../grids/grid-test"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "grid-test"
+	}
+}
